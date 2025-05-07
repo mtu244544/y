@@ -1,0 +1,33 @@
+{
+  "lowBalanceAmount": 500000,
+  "rate": 1.1,
+  "totalFloat": 100000,
+  "baseAmount": 3000,
+  "adminContact": "+256758307272",
+  "limits": {
+    "BUSINESS_PRIME": {
+      "duration": 5,
+      "amount": 100000,
+      "increaseAmount": 20000,
+      "maxLimit": 200000
+    },
+    "BUSINESS_BASIC": {
+      "duration": 5,
+      "maxLimit": 100000,
+      "increaseAmount": 5000,
+      "amount": 50000
+    },
+    "CORPORATE_PRIME": {
+      "maxLimit": 1000000,
+      "increaseAmount": 20000,
+      "amount": 300000,
+      "duration": 28
+    },
+    "CORPORATE_BASIC": {
+      "increaseAmount": 5000,
+      "maxLimit": 200000,
+      "amount": 100000,
+      "duration": 28
+    }
+  }
+}
